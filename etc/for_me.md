@@ -1,3 +1,8 @@
+
+шпаргалка по основным командам в интерактивном режиме
+
+[https://www.oslogic.ru/knowledge/598/shpargalka-po-osnovnym-komandam-postgresql/](https://www.oslogic.ru/knowledge/598/shpargalka-po-osnovnym-komandam-postgresql/)
+
 для просмотра содержимого файла /etc/passwd, вы можете использовать следующую команду:
 
 ```sh
@@ -25,3 +30,55 @@ select * from mul_table(3);
 [https://postgrespro.ru/docs/postgresql/14/functions-matching](https://postgrespro.ru/docs/postgresql/14/functions-matching)
 
 [https://habr.com/ru/articles/747934/](https://habr.com/ru/articles/747934/)
+
+
+
+# dev1_02_arch_general.pdf
+
+```sql
+PREPARE q AS SELECT * FROM t;
+```
+
+Вы можете удалить одно подготовленное утверждение в текущем сеансе:
+
+DEALLOCATE PREPARE <name>;
+И вы можете удалить все подготовленные операторы в текущем сеансе:
+
+DEALLOCATE PREPARE ALL;
+
+
+# dev4
+
+[https://habr.com/ru/companies/slurm/articles/684826/](https://habr.com/ru/companies/slurm/articles/684826/)
+
+SQL — весьма сложная тема для погружения и понимания. Условно у нас есть 30 команд — и сотни способов и подходов, как их использовать. Мысля множествами, можем выбирать разные интерпретации SQL-языка, чтобы помочь базе данных выполнить наш запрос. Поэтому какой-то серебряной пули, то есть универсального способа ускорения SQL-запросов нет. Ну либо я не нашел этот философский камень). Нельзя сформировать пошаговую инструкцию, потому что для каждой базы, ситуации и запроса будет своя схема — нужно в общем понимать и чувствовать, что следует сделать.
+
+Но чтобы сформировать это понимание, нужно на практике увидеть, как изменение отдельных параметров приводит к ускорению в конкретных ситуациях. Это мы и рассмотрим на практике.
+
+Оптимизировать работу с данными можно четырьмя способами:
+
+«Правильно» настроив конфигурацию БД, в нашем случае PostgreSQL.
+
+Оптимизировав конкретные запросы.
+
+Переработав архитектуру данных.
+
+Изменив работу приложения.
+
+Архитектуру данных и работу приложения мы затрагивать не будем, так как это напрямую не связано с SQL. А вот о конфигурации БД и оптимизации конкретных запросов поговорим на практических примерах.
+
+журналирование 
+
+[https://habr.com/ru/companies/postgrespro/articles/459250/](https://habr.com/ru/companies/postgrespro/articles/459250/)
+
+```sql
+SELECT pg_current_wal_lsn(), pg_current_wal_insert_lsn();
+```
+ 
+ ## Тип pg_lsn
+
+
+[https://postgrespro.ru/docs/postgresql/15/datatype-pg-lsn](https://postgrespro.ru/docs/postgresql/15/datatype-pg-lsn)
+
+
+![alt text](img/filepath.png)
