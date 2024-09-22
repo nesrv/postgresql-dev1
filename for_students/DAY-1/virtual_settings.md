@@ -44,7 +44,9 @@
 
 `student` - `student`
 
-### Установка PostgreSQL в Ubuntu
+
+
+### Установка PostgreSQL в Ubuntu (опционально)
 
 > Сначала обновите списки пакетов:
 
