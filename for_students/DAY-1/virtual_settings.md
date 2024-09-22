@@ -31,3 +31,44 @@
 > Учётные данные для доступа к виртуальным машинам:
 
 `student` - `student`
+
+### Установка PostgreSQL в Ubuntu
+
+> Сначала обновите списки пакетов:
+
+```sh
+sudo apt update
+```
+
+
+> Установите СУБД PostgreSQL
+
+```sh
+sudo apt -y install postgresql
+```
+
+
+> После установки СУБД откройте терминал и переключитесь на пользователя postgres с помощью команды:
+
+```sh
+sudo -i -u postgres
+```
+
+
+```sh
+psql
+```
+
+```
+\conninfo
+```
+
+
+```sql
+sudo apt install curl
+```
+
+
+```sh
+sudo apt install pgadmin4-desktop
+```
