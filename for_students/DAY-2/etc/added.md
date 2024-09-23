@@ -8,5 +8,5 @@
 
 * TCL (Transaction Control Language) – работа с транзакциями.
 
-![alt text](ppt/sq;_state.png)
 
+![alt text](sql_state.png)

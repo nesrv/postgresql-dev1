@@ -68,7 +68,7 @@ book_id integer NOT NULL REFERENCES books,
 qty_change integer NOT NULL,
 date_created date NOT NULL DEFAULT current_date
 );
-
+```
 
 ## Данные
 
