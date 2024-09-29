@@ -15,13 +15,11 @@
 
 | ФИО	 | Ссылка |	Логин |	Пароль|
 | -------|--------|-------|-------| 
-| Потемкин Дмитрий Юрьевич |rdp.eshift.ru:12245 |	administrator |	MLRNPa$$w0rd|
-| Поплаухин Иван Дмитриевич |rdp.eshift.ru:12246 |	administrator |	MLRNPa$$w0rd|
-| Кетов Алексей Алексеевич |rdp.eshift.ru:12247 |	administrator |	MLRNPa$$w0rd|
-| Бегенеев Владислав Юрьевич |rdp.eshift.ru:12248 |	administrator |	MLRNPa$$w0rd|
-| Савранский Дмитрий Львович |rdp.eshift.ru:12249 |	administrator |	MLRNPa$$w0rd|
-| Шатунова Мария Сергеевна |rdp.eshift.ru:12250 |	administrator |	MLRNPa$$w0rd|
-| Серов Николай Евгеньевич |rdp.eshift.ru:13101 |	administrator |	MLRNPa$$w0rd|
+| Петренко Анна Алексеевна | rdp.eshift.ru:12166 |	administrator |	SWDGPa$$w0rd|
+| Никитина Анна Алексеевна |rdp.eshift.ru:12167 |	administrator |	SWDGPa$$w0rd|
+| Собянин Василий Михайлович |rdp.eshift.ru:12168 |	administrator |	SWDGPa$$w0rd|
+| Потемкин Дмитрий Юрьевич |rdp.eshift.ru:12169 |	administrator |	SWDGPa$$w0rd|
+| Серов Николай Евгеньевич |rdp.eshift.ru:12170 |	administrator |	SWDGPa$$w0rd|
 
 
 
