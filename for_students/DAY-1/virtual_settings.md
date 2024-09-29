@@ -43,44 +43,26 @@
 `student` - `student`
 
 
+### Установка DBeaver
 
-### Установка PostgreSQL в Ubuntu (опционально)
 
-> Сначала обновите списки пакетов:
+Откройте терминал и выполните следующую команду, чтобы добавить репозиторий DBeaver:
+
+```sh
+sudo add-apt-repository ppa:serge-rider/dbeaver-ce
+```
+Обновите список пакетов:
 
 ```sh
 sudo apt update
 ```
 
-
-> Установите СУБД PostgreSQL
-
+Установите DBeaver:
 ```sh
-sudo apt -y install postgresql
+sudo apt install dbeaver-ce
 ```
 
-
-> После установки СУБД откройте терминал и переключитесь на пользователя postgres с помощью команды:
-
+Запустите DBeaver с русским интерфейсом
 ```sh
-sudo -i -u postgres
-```
-
-
-```sh
-psql
-```
-
-```
-\conninfo
-```
-
-
-```sql
-sudo apt install curl
-```
-
-
-```sh
-sudo apt install pgadmin4-desktop
+dbeaver -nl ru_RU
 ```
