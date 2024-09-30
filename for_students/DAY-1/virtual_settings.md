@@ -18,7 +18,7 @@
 | Петренко Анна Алексеевна | rdp.eshift.ru:12166 |	administrator |	SWDGPa$$w0rd|
 | Никитина Анна Алексеевна |rdp.eshift.ru:12167 |	administrator |	SWDGPa$$w0rd|
 | Собянин Василий Михайлович |rdp.eshift.ru:12168 |	administrator |	SWDGPa$$w0rd|
-| Потемкин Дмитрий Юрьевич |rdp.eshift.ru:12169 |	administrator |	SWDGPa$$w0rd|
+| Гераськин Олег Юрьевич |rdp.eshift.ru:12169 |	administrator |	SWDGPa$$w0rd|
 | Серов Николай Евгеньевич |rdp.eshift.ru:12170 |	administrator |	SWDGPa$$w0rd|
 
 
