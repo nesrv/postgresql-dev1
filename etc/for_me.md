@@ -14,6 +14,28 @@
 cat /etc/passwd
 ```
 
+```sql
+CREATE or replace FUNCTION maximum(
+a anycompatible,
+b anycompatible,
+c anycompatible DEFAULT NULL
+) RETURNS anycompatible
+AS $$
+	SELECT CASE
+		WHEN c IS NULL THEN		
+			CASE WHEN a > b THEN a ELSE b END
+			ELSE CASE WHEN c > b AND c > a THEN c 
+				ELSE CASE WHEN b > c and b > a THEN b ELSE a END
+			END
+		END
+	END
+$$ LANGUAGE sql;
+
+
+```
+
+
+
 # Таблица умножения с помощью 
 
 
