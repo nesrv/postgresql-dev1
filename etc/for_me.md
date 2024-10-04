@@ -36,6 +36,22 @@ $$ LANGUAGE sql;
 
 
 
+```sql
+SET lc_time = 'en_US.UTF8';
+CREATE or REPLACE FUNCTION days_of_week() RETURNS TABLE(n text)
+AS $$
+	BEGIN
+	FOR i in 7..13 LOOP		
+		RETURN QUERY SELECT to_char(to_date(i::text, 'J'), 'TMDy')::text;                                          
+	END LOOP;
+END;
+$$ LANGUAGE plpgsql;
+
+
+select days_of_week();
+
+```
+
 # Таблица умножения с помощью 
 
 
