@@ -1,12 +1,19 @@
 
 
-* DDL (Data Definition Language) – работа со структурой БД,
+* ### DDL (Data Definition Language) – работа со структурой БД,
+позволяет выполнять различные операции с базой данных, такие как CREATE (создание), ALTER (изменение) и DROP (удаление объектов).
 
-* DML (Data Manipulation Language) – работы с данными таблиц,
 
-* DCL (Data Control Language) – работа с правами,
+* ### DML (Data Manipulation Language) – работы с данными таблиц,
+позволяет получать доступ к данным и манипулировать ими, например, вставлять, обновлять, удалять и извлекать данные из базы данных. Самые используемые: INSERT, SELECT, UPDATE, DELETE
 
-* TCL (Transaction Control Language) – работа с транзакциями.
 
+* ### DCL (Data Control Language) – работа с правами,
+
+позволяет контролировать доступ к базе данных. Пример — GRANT (предоставить права), REVOKE (отозвать права).
+
+* ### TCL (Transaction Control Language) – работа с транзакциями.
+
+позволяет управлять транзакциями. COMMIT, ROLLBACK, SAVEPOINT - примеры операторов TCL.
 
 ![alt text](sql_state.png)
