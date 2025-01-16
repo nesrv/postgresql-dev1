@@ -30,3 +30,25 @@ relation — таблицы, индексы и т. п.
 
 Используйте ps -ef | grep postgresдля поиска соединения #
 sudo kill -9 "#"соединения
+
+
+## Индексы в pg
+
+
+```sh
+SELECT amname from pg_am;
+```
+
+* "heap"
+* "btree"
+* "hash"
+* "gist"
+* "gin"
+* "spgist"
+* "brin"
+
+* index scan индексное
+* index only scan
+* seq scan - последовательное
+* bitmap scan - сканирование по битовой карте
+* (?) filter scan
